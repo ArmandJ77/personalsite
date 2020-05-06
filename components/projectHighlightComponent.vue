@@ -2,7 +2,7 @@
   <v-container>
     <v-layout justify-center align-center text-center>
       <v-flex xs12 sm12 md12 lg12>
-        <a target="_blank" href="http://theioplatform.com">
+        <a target="_blank" href="https://theioplatform.azureedge.net">
           <div class="animation-resize">
             <h1>IO</h1>
           </div>
