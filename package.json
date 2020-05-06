@@ -1,7 +1,7 @@
 {
   "name": "site",
   "version": "1.0.0",
-  "description": "My magnificent Nuxt.js project",
+  "description": "Public Site",
   "author": "Armand Jordaan",
   "private": true,
   "scripts": {
