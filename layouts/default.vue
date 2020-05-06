@@ -1,5 +1,5 @@
 <template>
-  <v-app dark>
+  <v-app>
     <index></index>
   </v-app>
 </template>
