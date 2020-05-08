@@ -9,7 +9,6 @@ export default {}
 <style>
 .cover-text {
   font-weight: 300;
-  /* letter-spacing: 0.4em; */
 }
 
 .easein-animation {

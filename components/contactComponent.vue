@@ -4,7 +4,7 @@
       <v-flex xs12 sm6 md6 lg6>
         <a target="_blank" href="https://www.linkedin.com/in/armandjordaan/">
           <div class="single_contact-layout">
-            <h1>IN</h1>
+            <h1>LI</h1>
           </div>
         </a>
       </v-flex>
@@ -12,6 +12,20 @@
         <a target="_blank" href="https://github.com/ArmandJ77">
           <div class="single_contact-layout">
             <h1>GH</h1>
+          </div>
+        </a>
+      </v-flex>
+      <v-flex xs12 sm6 md6 lg6>
+        <a target="_blank" href="https://github.com/ArmandJ77">
+          <div class="single_contact-layout">
+            <h1>MD</h1>
+          </div>
+        </a>
+      </v-flex>
+      <v-flex xs12 sm6 md6 lg6>
+        <a target="_blank" href="https://github.com/ArmandJ77">
+          <div class="single_contact-layout">
+            <h1>TWT</h1>
           </div>
         </a>
       </v-flex>
