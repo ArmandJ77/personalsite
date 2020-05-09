@@ -1,7 +1,7 @@
 {
   "name": "site",
   "version": "1.0.0",
-  "description": "Public Site",
+  "description": "his is my portfolio site containing links to my work, blog, cv, and opinions",
   "author": "Armand Jordaan",
   "private": true,
   "scripts": {

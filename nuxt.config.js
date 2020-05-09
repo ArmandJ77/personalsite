@@ -14,6 +14,52 @@ module.exports = {
         hid: 'description',
         name: 'description',
         content: process.env.npm_package_description || ''
+      },
+      {
+        name: 'google-site-verification',
+        content: 'PtixMIx30-Y4kkcifCOaYBvia22uLFpNyFWet_4K6ZY'
+      },
+      {
+        property: 'og:type',
+        content: 'website'
+      },
+      {
+        property: 'og:url',
+        content: 'https://armandjordaan.com/'
+      },
+      {
+        property: 'og:title',
+        content: 'Armand Jordaan'
+      },
+      {
+        property: 'og:description',
+        content:
+          'This is my portfolio site containing links to my work, blog, cv, and opinions'
+      },
+      {
+        property: 'og:image',
+        content: 'https://armandjordaan.com/metadata-image.png'
+      },
+      {
+        property: 'twitter:card',
+        content: 'summary_large_image'
+      },
+      {
+        property: 'twitter:url',
+        content: 'https://armandjordaan.com/'
+      },
+      {
+        property: 'twitter:title',
+        content: 'Armand Jordaan'
+      },
+      {
+        property: 'twitter:description',
+        content:
+          'This is my portfolio site containing links to my work, blog, cv, and opinions'
+      },
+      {
+        property: 'twitter:image',
+        content: 'https://armandjordaan.com/metadata-image.png'
       }
     ],
     link: [
@@ -22,6 +68,10 @@ module.exports = {
         rel: 'stylesheet',
         href:
           'https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&display=swap'
+      },
+      {
+        rel: 'script',
+        src: 'https://www.googletagmanager.com/gtag/js?id=UA-165928861-1'
       }
     ]
   },
@@ -36,7 +86,7 @@ module.exports = {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [{ src: '~plugins/ga.js', mode: 'client' }],
   /*
    ** Nuxt.js dev-modules
    */
