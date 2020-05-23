@@ -50,8 +50,9 @@ a {
 }
 
 .footer-container {
-  position: absolute;
-  bottom: 80px;
+  padding-left: 5vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
   width: 100%;
 }
 .profession-text_vertical {
@@ -179,6 +180,14 @@ a {
   }
 }
 
+@media screen and (max-width: 1440px) {
+  .footer-container {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 1280px) {
   .horizontal-spacer_containerlarge {
     height: 10vh;
@@ -189,10 +198,9 @@ a {
   }
 
   .footer-container {
-    position: absolute;
-    bottom: 80px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     width: 100%;
-    left: 0px;
   }
 
   .general-text_container {
@@ -208,10 +216,9 @@ a {
     font-size: 5rem !important;
   }
   .footer-container {
-    position: absolute;
-    bottom: 80px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     width: 100%;
-    left: 0px;
   }
 }
 
@@ -229,10 +236,9 @@ a {
   }
 
   .footer-container {
-    position: absolute;
-    bottom: 80px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     width: 100%;
-    left: 0px;
   }
 }
 
@@ -247,10 +253,9 @@ a {
   }
 
   .footer-container {
-    position: absolute;
-    bottom: 80px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     width: 100%;
-    left: 0px;
   }
 }
 
@@ -265,10 +270,9 @@ a {
   }
 
   .footer-container {
-    position: absolute;
-    bottom: 80px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     width: 100%;
-    left: 0px;
   }
 }
 

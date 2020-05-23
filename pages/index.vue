@@ -97,8 +97,19 @@
                 </li>
               </ul>
             </div>
+            <div class="general-text_container fade-in footer-container">
+              <span class="general-text">CAT DAD</span>
+              <span>/</span>
+              <span class="general-text">CODER</span>
+              <span>/</span>
+              <span class="general-text">BLOGGER</span>
+              <span>/</span>
+              <span class="general-text">GAMER</span>
+              <span>/</span>
+              <span class="general-text">NOVICE DRUMMER</span>
+            </div>
           </v-flex>
-          <v-flex lg12>
+          <!-- <v-flex lg12>
             <div class="custom-container_leftpadding footer-container">
               <div class="general-text_container fade-in">
                 <span class="general-text">CAT DAD</span>
@@ -112,7 +123,7 @@
                 <span class="general-text">NOVICE DRUMMER</span>
               </div>
             </div>
-          </v-flex>
+          </v-flex>-->
         </v-layout>
       </v-flex>
     </v-layout>

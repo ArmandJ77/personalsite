@@ -38,7 +38,7 @@ module.exports = {
       },
       {
         property: 'og:image',
-        content: 'https://armandjordaan.com/metadata-image.png'
+        content: 'https://armandjordaan.com/metadata-image.PNG'
       },
       {
         property: 'twitter:card',
@@ -59,8 +59,8 @@ module.exports = {
       },
       {
         property: 'twitter:image',
-        content: 'https://armandjordaan.com/metadata-image.png'
-      }
+        content: 'https://armandjordaan.com/metadata-image.PNG'
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
